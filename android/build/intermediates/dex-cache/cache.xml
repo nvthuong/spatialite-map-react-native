@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_2ea531eb9e1290d71113ec7fea2ca2de9600bc7e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0dc43f46501b1d58985a0e5c4cd78c330cef875c">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_571a24be3fdec618ce56d84694d7e30d21b76bcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/6843f52363f50085699d0e0a89707b8b88ef77b0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_eb98fbd8b5d4292cd8509b9ed5b11ee43b37aa62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/c2261fbf2fcb6a9a061be3e15797e51273996e06/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_1a56d3e027cfeb9827e5d11a19a7197aab1a574d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_4365a3d9180890825f3fac7df53b78784f316009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_e9e5fcb3548019b9ba04f1f4b513a56287c5d354.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_90ad89811ec6ff5ebce8e5b9014fbb6808cc0a53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/6a1e742c0dc5b26afaa1f9ecd3c4ef6d1fd7f193/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_1b6dae241e88d10674ebfb5f4c6f9e6025f9363d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_a6ec6ec0ea7dbc178a5ef50f2e8b26021f5f917a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c3b9a906d8043b74dc08e131593bdf1e5330ec0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_bc62e9ed6083785268139f8bab1042028f8ccd46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/cc6b2364135521193ebec605bdbf200d12c411f3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_7f6cff2bcaaa1aa477591bbae01215dd4b1a18d2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f6f3c5d845d4a2003c781ac65ed03fef573be18e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_1201bc07f41b93c6a7717c389e73e9d566b41c4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/82236defc8d83b1e466134310c2259b81ede8714/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_5fda0ee113c70dba17a7b4c738baf6f01373f174.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_2ea531eb9e1290d71113ec7fea2ca2de9600bc7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/ccaff4c6f61a417bff805f4735ab19a259aaa0c8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_44697885971381c7569847fc6be41f50f7a781a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_f5316fff9cc8e3fe18852bc5ccc43cf6a63da0af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/9984306fac6477ec7554ab66a8979b368e2278a5/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_6ec99a2db8a3a74e73ff86821628ba093d2b3f0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_e9e5fcb3548019b9ba04f1f4b513a56287c5d354.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/node_modules/react-native-maps/lib/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="230dffa072085c3bec282bba2a20b12d7b2a60c6">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_eb165ae852a5aa8d5e0c27eacf6cff34bafa9f14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_4365a3d9180890825f3fac7df53b78784f316009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/139684b7ee9bdf0adbe1e1a795c82cc4578ccedd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_0fb07893c208a0b9de7a0649c50744ef21b0cae2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/d308027dd9d2dc150bebb40a7004d81cbdb1b144/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_73c656a4e2737dc6e82bf586f74e648cbb65f14c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/b18eef817134e2defec50beb8c4ba4b71ac12075/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_c7fba683c4d7004edeb57ede11ecc2501505d949.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/d308027dd9d2dc150bebb40a7004d81cbdb1b144/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="576b5113887747a7592650ae14d980e1c57983c4">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_8f26cfd6cff2ebdc886224009560f84207dc15f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_1201bc07f41b93c6a7717c389e73e9d566b41c4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_90ad89811ec6ff5ebce8e5b9014fbb6808cc0a53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_c3b9a906d8043b74dc08e131593bdf1e5330ec0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/295a935339d31ae0d65cd3359f995795f7c655d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_b45e21a4d5be19bae76835a175a9c0412cb330c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/de4e77e417ad3968fe15c64d545d4dce463fd464/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_2f7a200c055701143d7395ecc469cf3232ae823e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_bc62e9ed6083785268139f8bab1042028f8ccd46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/d508527b10386de02be2f74e53f43d8a87dd622f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_b9f875dee635bac38694a8474e11cd2510c635bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/9984306fac6477ec7554ab66a8979b368e2278a5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_bbdcf3649fc6186c88a26cf5f7f9a01fc8f46597.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.android/build-cache/50677229c320c98ed58b5c89bbc7cc8f160df5f9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/classes_99611ea8e73415c53cbd6635782ccbf2dbdbf05f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/TDH/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_a6ec6ec0ea7dbc178a5ef50f2e8b26021f5f917a.jar" />
+    </item>
+
+</items>

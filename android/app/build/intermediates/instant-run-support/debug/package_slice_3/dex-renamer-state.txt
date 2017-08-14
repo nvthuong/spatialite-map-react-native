@@ -1,0 +1,4 @@
+#Tue Aug 15 00:30:24 ICT 2017
+base.0=/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
+renamed.0=classes.dex
+file.0=/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex

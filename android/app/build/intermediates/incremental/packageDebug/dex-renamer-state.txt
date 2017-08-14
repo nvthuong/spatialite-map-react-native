@@ -1,0 +1,7 @@
+#Tue Aug 15 00:39:24 ICT 2017
+base.0=/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_571a24be3fdec618ce56d84694d7e30d21b76bcb
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f6f3c5d845d4a2003c781ac65ed03fef573be18e/classes.dex
+base.1=/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f6f3c5d845d4a2003c781ac65ed03fef573be18e
+file.0=/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_571a24be3fdec618ce56d84694d7e30d21b76bcb/classes.dex
