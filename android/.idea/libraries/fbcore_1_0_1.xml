@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="fbcore-1.0.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/6843f52363f50085699d0e0a89707b8b88ef77b0/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/6843f52363f50085699d0e0a89707b8b88ef77b0/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9e9d3153ec157a1824f9bbd78f5455d76ab343bd/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9e9d3153ec157a1824f9bbd78f5455d76ab343bd/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

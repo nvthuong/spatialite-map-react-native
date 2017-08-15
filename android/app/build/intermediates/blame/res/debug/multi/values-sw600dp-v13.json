@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+        "outputFile": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 189
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 339
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 398
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 469
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 537
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 592
                 },
                 "from": {
-                    "file": "/Users/TDH/.android/build-cache/88230faf30fbbd91d6e8820e2b06a81426a973a0/output/res/values-sw600dp/values-sw600dp.xml",
+                    "file": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/values-sw600dp/values-sw600dp.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
