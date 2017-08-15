@@ -1,15 +1,19 @@
 [
     {
-        "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/layout/abc_search_view.xml"
-    },
-    {
         "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/nvthuong/.android/build-cache/8045e1239b9a71d7af88522084fefaa4b3eee185/output/res/layout/abc_search_view.xml"
+    },
+    {
         "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
         "source": "/Users/nvthuong/.android/build-cache/d0077a709781576386706355f2e65770ab936a91/output/res/layout/redbox_view.xml"
+    },
+    {
+        "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/nvthuong/.android/build-cache/aab67040e4c2f3ac16e5f5c6894cfcfcab063665/output/res/layout/main.xml"
     },
     {
         "merged": "/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",

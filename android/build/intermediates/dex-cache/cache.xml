@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/node_modules/react-native-spatialite/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b28511e40b2f2bfb09ff74fd3e6f7bf6e3dee479">
+        <dex dex="/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/pre-dexed/debug/classes_b3ede1e990ea2dfc4e0210aecce54b882c02bb3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/nvthuong/.android/build-cache/d0077a709781576386706355f2e65770ab936a91/output/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
