@@ -9,36 +9,37 @@ export default class DemoMapView extends Component {
     super(props);
     arrayMarkers = [
       {
-        latitude: 20.993777,
-        longitude: 105.811417,
+        latitude: 40.775036,
+        longitude: -73.912034
       }
     ];
     arrayCoordinates = [
       {
-        latitude: 20.993776,
-        longitude: 105.811417,
+        latitude: 40.775036,
+        longitude: -73.912034
       },
       {
-        latitude: 20.993776,
-        longitude: 105.822156,
+        latitude: 40.755036,
+        longitude: -73.912034
       },
       {
-        latitude: 20.994776,
-        longitude: 105.822156,
+        latitude: 40.771036,
+        longitude: -73.902034
       },
       {
-        latitude: 20.999776,
-        longitude: 105.832156,
+        latitude: 40.275036,
+        longitude: -73.942034
       },
     ];
     this.state = {
       initialRegion: {
-        latitude: 20,
-        longitude: 105,
-        latitudeDelta: 0.01,
-        longitudeDelta: 0.001
+        latitude: 40.775036,
+        longitude: -73.912034,
+        latitudeDelta: 0.4,
+        longitudeDelta: 0.4
       },
       markers: [],
+      polygons: [],
       coordinates: arrayCoordinates,
     }
   }
@@ -57,10 +58,13 @@ export default class DemoMapView extends Component {
   }
 
   renderMarkers() {
-    markers=[];
-    for(marker of this.state.markers) {
+    markers = [];
+    for (marker of this.state.markers) {
       markers.push(
         <MapView.Marker
+          key = {marker.coordinates.longitude}
+          title={marker.name}
+          description={'lat: '+ marker.coordinates.latitude + ' log: ' + marker.coordinates.longitude}
           coordinate={marker.coordinates}
         />
       )
@@ -68,57 +72,88 @@ export default class DemoMapView extends Component {
     return markers;
   }
 
-  setSpatial = (array) => {
+  renderPolygons(){
+    return(
+      <MapView.Polygon
+        coordinates={this.state.coordinates}
+        strokeColor="#b300b3"
+        fillColor="#F00"
+        strokeWidth={2}
+      />
+    );
+  }
+
+  // /////////////////////////////////// Marker /////////////
+  setMarker = (array) => {
     mySpatialData = [];
-    for(var i = 0; i < array.length; i ++){
-      var geometry = JSON.parse(array[i]["POINT"]);
+    for (var i = 0; i < array.length; i++) {
+      var geometry = JSON.parse(array[i]["Point"]);
+      var name = array[i]["Name"];
       geom = {
-        latitude: geometry.coordinates[0],
-        longitude: geometry.coordinates[1]
+        latitude: geometry.coordinates[1],
+        longitude: geometry.coordinates[0]
       };
       mySpatialData.push({
+        name: name,
         type: geometry.type,
         coordinates: geom
       });
     }
-    this.setState({markers: mySpatialData});
+    this.setState({ markers: mySpatialData });
+  }
+  getMarker = () => {
+    db.createConnection('spatialdb.sqlite').then(connected => {
+      console.log('Database is connected', connected);
+    }).then(array => {
+      return db.executeQuery('SELECT Station_Name as Name, AsGeoJSON(geom) as Point FROM geom_point_2012');
+    }).then(rows => {
+      this.setMarker(rows);
+      db.closeConnection();
+      this.getMultiLine();
+    }).catch(err => {
+      throw err;
+    });
+  }
+// /////////////////////////////////// MultiLine /////////////
+  getMultiLine = () => {
+    db.createConnection('spatialdb.sqlite').then(connected => {
+      console.log('Database is connected', connected);
+    }).then(array => {
+      return db.executeQuery('SELECT Line as Name, AsGeoJSON(geom) as MultiLineString FROM "geom_lines_2010" limit 10');
+    }).then(rows => {
+      debugger;
+      // this.setSpatial(rows);
+      db.closeConnection();
+    }).catch(err => {
+      throw err;
+    });
   }
 
-  getPointAsset = () => {
-    db.createConnection('work-asset.sqlite').then(connected => {
-        console.log('Database is connected', connected);
-    }).then(array => {
-        return db.executeQuery('SELECT AsGeoJSON(Transform(Geometry, 4236)) as POINT FROM Towns LIMIT 100');
-    }).then(rows => {
-      this.setSpatial(rows);
-    }).catch(err => {
-        throw err;
-    });
-}
-
-  _findMe(){
-    this.getPointAsset();
+  _findMe() {
+    // let values = [];
+    // values = Asset.getPoint();
+    this.getMarker();
   }
 
   render() {
     const { height: windowHeight } = Dimensions.get('window');
     const varTop = windowHeight - 125;
     const hitSlop = {
-       top: 15,
-       bottom: 15,
-       left: 15,
-       right: 15,
-     }
-     bbStyle = function(vheight) {
-       return {
-         position: 'absolute',
-         top: vheight,
-         left: 10,
-         right: 10,
-         backgroundColor: 'transparent',
-         alignItems: 'center',
-       }
-     }
+      top: 15,
+      bottom: 15,
+      left: 15,
+      right: 15,
+    }
+    bbStyle = function (vheight) {
+      return {
+        position: 'absolute',
+        top: vheight,
+        left: 10,
+        right: 10,
+        backgroundColor: 'transparent',
+        alignItems: 'center',
+      }
+    }
 
     return (
       <View style={styles.container}>
@@ -128,24 +163,22 @@ export default class DemoMapView extends Component {
           style={[StyleSheet.absoluteFillObject, styles.map]}
           onPress={this.onPress.bind(this)}
         >
-
           {this.renderMarkers()}
-
+          {this.renderPolygons()}
 
         </MapView>
-
         <View style={bbStyle(varTop)}>
-           <TouchableOpacity
-             hitSlop = {hitSlop}
-             activeOpacity={0.7}
-             style={styles.mapButton}
-             onPress={ () => this._findMe() }
-           >
-               <Text style={{fontWeight: 'bold', color: 'black', fontSize: 16}}>
-                 Search
+          <TouchableOpacity
+            hitSlop={hitSlop}
+            activeOpacity={0.7}
+            style={styles.mapButton}
+            onPress={() => this._findMe()}
+          >
+            <Text style={{ fontWeight: 'bold', color: 'black', fontSize: 16 }}>
+              Search
                </Text>
-           </TouchableOpacity>
-         </View>
+          </TouchableOpacity>
+        </View>
 
       </View>
     );
@@ -161,17 +194,17 @@ const styles = StyleSheet.create({
     zIndex: 1,
   },
   mapButton: {
-     width: 75,
-     height: 75,
-     borderRadius: 85/2,
-     backgroundColor: 'rgba(252, 253, 253, 0.9)',
-     justifyContent: 'center',
-     alignItems: 'center',
-     shadowColor: 'black',
-     shadowRadius: 8,
-     shadowOpacity: 0.12,
-     opacity: .6,
-     zIndex: 10,
+    width: 75,
+    height: 75,
+    borderRadius: 85 / 2,
+    backgroundColor: 'rgba(252, 253, 253, 0.9)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: 'black',
+    shadowRadius: 8,
+    shadowOpacity: 0.12,
+    opacity: .6,
+    zIndex: 10,
   },
 });
 AppRegistry.registerComponent("SpatiaLiteMapApp", () => DemoMapView);
