@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 formatPointGeomatry = (objGeom) => {
-    let point = JSON.parse(objGeom.Point);
+    let line = JSON.parse(objGeom.MultiLineString);
     geom = {coordinates: {
-            latitude: point.coordinates[1],
-            longitude: point.coordinates[0]
+            latitude: line.coordinates[1],
+            longitude: line.coordinates[0]
         },
         name: objGeom.Name,
-        type: point.type
+        type: line.type
     }
     return geom;
 }

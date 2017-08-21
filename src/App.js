@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { AppRegistry, StyleSheet, Text, View, TouchableOpacity, Dimensions, Alert } from "react-native";
 import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
-import * as Asset from './Services/Database/PointAsset'
+import * as Point from './Services/Database/PointAsset'
+import * as Line from './Services/Database/LineAsset'
 import * as Utils from './Helpers/Utils'
 import db from 'react-native-spatialite';
 
@@ -59,6 +60,7 @@ export default class DemoMapView extends Component {
         longitudeDelta: 0.4
       },
       markers: [],
+      lines: [],
       polygons: [],
       currentRegion: '',
       coordinates: arrayCoordinates,
@@ -106,7 +108,7 @@ export default class DemoMapView extends Component {
 
   // /////////////////////////////////// Marker /////////////
   setMarker = (array) => {
-    this.setState({ markers: Utils.parseJson(array) });
+    this.setState({ markers: Point.parseJson(array) });
   }
   getMarker = () => {
     db.createConnection('spatialdb.sqlite').then(connected => {
@@ -125,21 +127,7 @@ export default class DemoMapView extends Component {
   }
   // /////////////////////////////////// MultiLine /////////////
   setMultipleLine = (array) => {
-
-    myLineData = [];
-    for (var i = 0; i < array.length; i++) {
-      line = [];
-      var lines = JSON.parse(array[i]["MultiLineString"]).coordinates;
-      for (var j = 0; j < lines[0].length; j++) {
-        geom = {
-          latitude: lines[j][1],
-          longitude: lines[j][0]
-        }
-        line.push({ geom });
-      }
-      myLineData.push({ line });
-    }
-    // this.setState({ markers: mySpatialData });
+    this.setState({ lines: Line.parseJson() });
   }
   getMultiLine = () => {
     db.createConnection('spatialdb.sqlite').then(connected => {
