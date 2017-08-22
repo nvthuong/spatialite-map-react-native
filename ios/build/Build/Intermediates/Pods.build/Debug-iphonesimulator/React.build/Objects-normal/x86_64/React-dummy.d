@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/Pods/Target\ Support\ Files/React/React-dummy.m \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/Pods/Target\ Support\ Files/React/React-prefix.pch
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/Pods/Target\ Support\ Files/React/React-dummy.m \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/Pods/Target\ Support\ Files/React/React-prefix.pch

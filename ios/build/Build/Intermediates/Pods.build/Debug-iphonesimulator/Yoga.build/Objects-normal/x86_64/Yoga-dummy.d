@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/Pods/Target\ Support\ Files/Yoga/Yoga-dummy.m \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/Pods/Target\ Support\ Files/Yoga/Yoga-prefix.pch
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/Pods/Target\ Support\ Files/Yoga/Yoga-dummy.m \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/Pods/Target\ Support\ Files/Yoga/Yoga-prefix.pch

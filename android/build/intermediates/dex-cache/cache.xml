@@ -28,5 +28,14 @@
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_7e315a62c905a8c77b7234b7004b4abbc86b553c.jar" />
     </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/node_modules/react-native-spatialite/android/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b28511e40b2f2bfb09ff74fd3e6f7bf6e3dee479">
+        <dex dex="/Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/android/app/build/intermediates/pre-dexed/debug/classes_b3ede1e990ea2dfc4e0210aecce54b882c02bb3e.jar" />
+    </item>
 
 </items>
