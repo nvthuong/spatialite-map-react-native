@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/SpatiaLiteMapApp/main.m \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/SpatiaLiteMapApp/AppDelegate.h
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/SpatiaLiteMapApp/main.m \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/SpatiaLiteMapApp/AppDelegate.h

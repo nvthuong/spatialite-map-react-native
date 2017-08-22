@@ -1,16 +1,21 @@
 dependencies: \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/SpatiaLiteMapAppTests/SpatiaLiteMapAppTests.m \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/SpatiaLiteMapAppTests/SpatiaLiteMapAppTests.m \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h \
@@ -21,6 +26,7 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h \
@@ -29,14 +35,14 @@ dependencies: \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h

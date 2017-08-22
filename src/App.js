@@ -11,26 +11,26 @@ export default class DemoMapView extends Component {
     super(props);
     arrayMarkers = [
       {
-        latitude: 40.775036,
-        longitude: -73.912034
+        latitude: 40.70357700093293,
+        longitude: -74.01504699999998
       }
     ];
     arrayCoordinates = [[
       {
-        latitude: 40.775036,
-        longitude: -73.912034
+        latitude: 40.70321400093293,
+        longitude: -74.01502799999997
       },
       {
-        latitude: 40.755036,
-        longitude: -73.912034
+        latitude: 40.7025060009329,
+        longitude: -74.01488899999998
       },
       {
-        latitude: 40.771036,
-        longitude: -73.902034
+        latitude: 40.70207700093289,
+        longitude: -74.01472199999995
       },
       {
-        latitude: 40.275036,
-        longitude: -73.942034
+        latitude: 40.70183300093296,
+        longitude: -74.11456799999993
       },
     ],
     [
@@ -54,8 +54,8 @@ export default class DemoMapView extends Component {
     ];
     this.state = {
       initialRegion: {
-        latitude: 40.775036,
-        longitude: -73.912034,
+        latitude: 40.70357700093293,
+        longitude: -74.01504699999998,
         latitudeDelta: 0.4,
         longitudeDelta: 0.4
       },
@@ -82,10 +82,11 @@ export default class DemoMapView extends Component {
 
   renderMarkers() {
     markers = [];
+    i = 0;
     for (marker of this.state.markers) {
       markers.push(
         <MapView.Marker
-          key={marker.coordinates.longitude}
+          key={i++}
           title={marker.name}
           description={'lat: ' + marker.coordinates.latitude + ' log: ' + marker.coordinates.longitude}
           coordinate={marker.coordinates}
@@ -96,15 +97,24 @@ export default class DemoMapView extends Component {
   }
 
   renderPolygons() {
-    return (
-      <MapView.Polygon
-        coordinates={this.state.coordinates[0]}
-        strokeColor="#b300b3"
-        fillColor="#F00"
-        strokeWidth={2}
-      />
-    );
+    lines = [];
+    if(this.state.lines != null){
+      i = 0;
+      for(line of this.state.lines){
+        lines.push(
+          <MapView.Polygon
+            key={i++}
+            coordinates={line.coordinates}
+            strokeColor="#b300b3"
+            fillColor="#F00"
+            strokeWidth={1}
+          />
+        );
+      }
+    }
+    return lines;
   }
+
 
   // /////////////////////////////////// Marker /////////////
   setMarker = (array) => {
@@ -127,7 +137,7 @@ export default class DemoMapView extends Component {
   }
   // /////////////////////////////////// MultiLine /////////////
   setMultipleLine = (array) => {
-    this.setState({ lines: Line.parseJson() });
+    this.setState({ lines: Line.parseJson(array) });
   }
   getMultiLine = () => {
     db.createConnection('spatialdb.sqlite').then(connected => {
@@ -183,6 +193,7 @@ export default class DemoMapView extends Component {
       <View style={styles.container}>
 
         <MapView
+          provider={PROVIDER_GOOGLE}
           initialRegion={this.state.initialRegion}
           style={[StyleSheet.absoluteFillObject, styles.map]}
           onPress={this.onPress.bind(this)}

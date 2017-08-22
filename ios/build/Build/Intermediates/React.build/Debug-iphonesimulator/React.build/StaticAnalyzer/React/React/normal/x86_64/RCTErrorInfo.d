@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/node_modules/react-native/React/Base/RCTErrorInfo.m \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/TDH/Documents/projects/mobile/react/t1/SpatiaLiteMapApp/node_modules/react-native/React/Base/RCTJSStackFrame.h
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/node_modules/react-native/React/Base/RCTErrorInfo.m \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/node_modules/react-native/React/Base/RCTErrorInfo.h \
+  /Users/nvthuong/Documents/projects/t1/spatialite-map-react-native/node_modules/react-native/React/Base/RCTJSStackFrame.h
