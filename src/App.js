@@ -5,32 +5,34 @@ import * as Point from './Services/Database/PointAsset'
 import * as Line from './Services/Database/LineAsset'
 import * as Utils from './Helpers/Utils'
 import db from 'react-native-spatialite';
+import { ReactNativeSpatialite } from '../spatialite';
 
 export default class DemoMapView extends Component {
   constructor(props) {
     super(props);
+    arrays = [];
     arrayMarkers = [
       {
-        latitude: 40.70357700093293,
-        longitude: -74.01504699999998
+        latitude: 40.775036,
+        longitude: -73.912034
       }
     ];
     arrayCoordinates = [[
       {
-        latitude: 40.70321400093293,
-        longitude: -74.01502799999997
+        latitude: 40.775036,
+        longitude: -73.912034
       },
       {
-        latitude: 40.7025060009329,
-        longitude: -74.01488899999998
+        latitude: 40.755036,
+        longitude: -73.912034
       },
       {
-        latitude: 40.70207700093289,
-        longitude: -74.01472199999995
+        latitude: 40.771036,
+        longitude: -73.902034
       },
       {
-        latitude: 40.70183300093296,
-        longitude: -74.11456799999993
+        latitude: 40.275036,
+        longitude: -73.942034
       },
     ],
     [
@@ -54,8 +56,8 @@ export default class DemoMapView extends Component {
     ];
     this.state = {
       initialRegion: {
-        latitude: 40.70357700093293,
-        longitude: -74.01504699999998,
+        latitude: 40.775036,
+        longitude: -73.912034,
         latitudeDelta: 0.4,
         longitudeDelta: 0.4
       },
@@ -64,25 +66,28 @@ export default class DemoMapView extends Component {
       polygons: [],
       currentRegion: '',
       coordinates: arrayCoordinates,
-    }
+    };
+    this.testFunction = this.testFunction.bind(this);
   }
 
   onPress(data) {
-    let latitude = data.nativeEvent.coordinate.latitude;
-    let longitude = data.nativeEvent.coordinate.longitude;
-    console.log(latitude);
-    arrayMarkers.push({
-      latitude: latitude,
-      longitude: longitude,
-    });
-    this.setState({
-      markers: arrayMarkers
-    })
+    // let latitude = data.nativeEvent.coordinate.latitude;
+    // let longitude = data.nativeEvent.coordinate.longitude;
+    // console.log(latitude);
+    // arrayMarkers.push({
+    //   latitude: latitude,
+    //   longitude: longitude,
+    // });
+    // this.setState({
+    //   markers: arrayMarkers
+    // });
+
+    this.setState({ markers: Point.parseJson(arrays) });
   }
 
   renderMarkers() {
     markers = [];
-    i = 0;
+    var i = 0;
     for (marker of this.state.markers) {
       markers.push(
         <MapView.Marker
@@ -97,47 +102,83 @@ export default class DemoMapView extends Component {
   }
 
   renderPolygons() {
-    lines = [];
-    if(this.state.lines != null){
-      i = 0;
-      for(line of this.state.lines){
-        lines.push(
-          <MapView.Polygon
-            key={i++}
-            coordinates={line.coordinates}
-            strokeColor="#b300b3"
-            fillColor="#F00"
-            strokeWidth={1}
-          />
-        );
-      }
-    }
-    return lines;
+    return (
+      <MapView.Polygon
+        coordinates={this.state.coordinates[0]}
+        strokeColor="#b300b3"
+        fillColor="#F00"
+        strokeWidth={2}
+      />
+    );
   }
 
+  testFunction() {
+    console.log("THAT BAI ROI");
+    window.alert('testFunction');
+  }
 
   // /////////////////////////////////// Marker /////////////
   setMarker = (array) => {
+    debugger;
     this.setState({ markers: Point.parseJson(array) });
   }
   getMarker = () => {
-    db.createConnection('spatialdb.sqlite').then(connected => {
-      console.log('Database is connected', connected);
-    }).then(array => {
-      return db.executeQuery('SELECT Station_Name as Name, AsGeoJSON(geom) as Point FROM geom_point_2012 WHERE ROWID IN' +
-        ' (SELECT rowid FROM cache_geom_point_2012_geom WHERE' +
-        ' mbr = FilterMbrWithin(' + this.state.currentRegion + '))');
-    }).then(rows => {
-      this.setMarker(rows);
-      db.closeConnection();
-      this.getMultiLine();
-    }).catch(err => {
-      throw err;
+    // db.createConnection('spatialdb.sqlite').then(connected => {
+    //   console.log('Database is connected', connected);
+    // }).then(array => {
+    //   return db.executeQuery('SELECT Station_Name as Name, AsGeoJSON(geom) as Point FROM geom_point_2012 WHERE ROWID IN' +
+    //     ' (SELECT rowid FROM cache_geom_point_2012_geom WHERE' +
+    //     ' mbr = FilterMbrWithin(' + this.state.currentRegion + '))');
+    // }).then(rows => {
+    //   this.setMarker(rows);
+    //   db.closeConnection();
+    //   this.getMultiLine();
+    // }).catch(err => {
+    //   throw err;
+    // });
+    var currentRegion = this.state.currentRegion;
+    arrays = []
+    ReactNativeSpatialite.open("/Users/nvthuong/Desktop/spatialdb.sqlite", function (error, database) {
+     if (error) {
+       console.log("Failed to open database:", error);
+       return;
+     }
+
+     var sql = 'SELECT NAME as Name, AsGeoJSON(GEOMETRY) as Point FROM POINTS WHERE ROWID IN'
+              + ' (SELECT rowid FROM cache_POINTS_GEOMETRY WHERE'
+              + ' mbr = FilterMbrWithin(' + currentRegion + '))';
+     var params = [];
+     database.executeSQL(sql, params, rowCallback, completeCallback);
+     function rowCallback(rowData) {
+       console.log("Got row data:", rowData);
+       arrays.push({
+         Point: rowData.Point,
+         Name: rowData.Name
+       });
+     }
+     function completeCallback(error) {
+       if (error) {
+         console.log("Failed to execute query:", error);
+         window.alert('Failed to execute query:');
+         return
+       }
+
+       console.log("Query complete!");
+      //  window.alert('Query complete! ' + arrays.length + ' point');
+       this.testFunction;
+       database.close(function (error) {
+         if (error) {
+           console.log("Failed to close database:", error);
+           window.alert('Failed to close database:');
+           return
+         }
+       });
+     }
     });
   }
   // /////////////////////////////////// MultiLine /////////////
   setMultipleLine = (array) => {
-    this.setState({ lines: Line.parseJson(array) });
+    this.setState({ lines: Line.parseJson() });
   }
   getMultiLine = () => {
     db.createConnection('spatialdb.sqlite').then(connected => {
@@ -160,7 +201,6 @@ export default class DemoMapView extends Component {
       (region.longitude + (region.longitudeDelta / 2)) + ',' +
       (region.latitude - (region.latitudeDelta / 2));
     this.setState({ currentRegion: currentRegion });
-    console.log(currentRegion);
   }
 
   _findMe() {
@@ -186,21 +226,22 @@ export default class DemoMapView extends Component {
         right: 10,
         backgroundColor: 'transparent',
         alignItems: 'center',
+        zIndex: 100
       }
     }
 
     return (
       <View style={styles.container}>
 
-        <MapView
+        <MapView style={styles.map}
           provider={PROVIDER_GOOGLE}
-          initialRegion={this.state.initialRegion}
+          region={this.state.initialRegion}
           style={[StyleSheet.absoluteFillObject, styles.map]}
           onPress={this.onPress.bind(this)}
           onRegionChangeComplete={this.onRegionChangeComplete}
         >
           {this.renderMarkers()}
-          {this.renderPolygons()}
+        
 
         </MapView>
         <View style={bbStyle(varTop)}>

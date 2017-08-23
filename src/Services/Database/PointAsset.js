@@ -13,7 +13,7 @@ formatPointGeomatry = (objGeom) => {
 }
 parseJson = (array) => {
     // Point
-    if (array[0].Point != null) {
+    if (array.length > 0) {
         myPointData = [];
         for (var i = 0; i < array.length; i++) {
             point = this.formatPointGeomatry(array[i]);

@@ -13,29 +13,8 @@ formatPointGeomatry = (objGeom) => {
     return geom;
 }
 
-arrayCoordinates = [[
-    {
-        latitude: 40.775036,
-        longitude: -73.912034
-    },
-    {
-        latitude: 40.755036,
-        longitude: -73.912034
-    }
-],
-[
-    {
-        latitude: 40.775036,
-        longitude: -73.912034
-    },
-    {
-        latitude: 40.755036,
-        longitude: -73.912034
-    }
-]
-];
 parseJson = (array) => {
-    if (array[0].MultiLineString != null) {
+    if (array.length > 0) {
         myLineData = [];
         for (var i = 0; i < array.length; i++) {
             arrayLine = [];

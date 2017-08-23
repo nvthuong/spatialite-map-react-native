@@ -57,6 +57,12 @@
 		6F3B9E4B1F4206D400564B93 /* RCTConvert+GMSMapViewType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B9E381F4206D400564B93 /* RCTConvert+GMSMapViewType.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		CFFE196D15205A97243864FE /* libPods-SpatiaLiteMapApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19023799A4B8AB56E02D0325 /* libPods-SpatiaLiteMapApp.a */; };
+		D80C73B41F4B0C1400B6DDB3 /* libRNSpatialite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D80C73B31F4B0C0100B6DDB3 /* libRNSpatialite.a */; };
+		D897F5801F4BCA0300C6BDDF /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D897F57F1F4BCA0300C6BDDF /* libz.1.dylib */; };
+		D897F5A11F4BCA1E00C6BDDF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D897F5A01F4BCA1E00C6BDDF /* libxml2.2.dylib */; };
+		D897F5A31F4BCA3600C6BDDF /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D897F5A21F4BCA3600C6BDDF /* libc++.1.dylib */; };
+		D897F5A51F4BCA5000C6BDDF /* libcharset.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D897F5A41F4BCA5000C6BDDF /* libcharset.1.dylib */; };
+		D897F5A71F4BCA7600C6BDDF /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D897F5A61F4BCA7600C6BDDF /* libiconv.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -284,6 +290,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		D80C73B21F4B0C0100B6DDB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D80C73901F4B0C0000B6DDB3 /* RNSpatialite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNSpatialite;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -353,6 +366,12 @@
 		6F3B9E381F4206D400564B93 /* RCTConvert+GMSMapViewType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+GMSMapViewType.m"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		D80C73901F4B0C0000B6DDB3 /* RNSpatialite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNSpatialite.xcodeproj; path = "../node_modules/react-native-spatialite/ios/RNSpatialite.xcodeproj"; sourceTree = "<group>"; };
+		D897F57F1F4BCA0300C6BDDF /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		D897F5A01F4BCA1E00C6BDDF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		D897F5A21F4BCA3600C6BDDF /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		D897F5A41F4BCA5000C6BDDF /* libcharset.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcharset.1.dylib; path = ../../../../../../../usr/lib/libcharset.1.dylib; sourceTree = "<group>"; };
+		D897F5A61F4BCA7600C6BDDF /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ../../../../../../../usr/lib/libiconv.2.dylib; sourceTree = "<group>"; };
 		EC8ADCB5F1F64869954A8758 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AirMaps.xcodeproj; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -369,6 +388,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D897F5A71F4BCA7600C6BDDF /* libiconv.2.dylib in Frameworks */,
+				D897F5A51F4BCA5000C6BDDF /* libcharset.1.dylib in Frameworks */,
+				D897F5A31F4BCA3600C6BDDF /* libc++.1.dylib in Frameworks */,
+				D897F5A11F4BCA1E00C6BDDF /* libxml2.2.dylib in Frameworks */,
+				D897F5801F4BCA0300C6BDDF /* libz.1.dylib in Frameworks */,
+				D80C73B41F4B0C1400B6DDB3 /* libRNSpatialite.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -532,6 +557,11 @@
 		361AAFF9C6B94CD97FCDA8A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D897F5A61F4BCA7600C6BDDF /* libiconv.2.dylib */,
+				D897F5A41F4BCA5000C6BDDF /* libcharset.1.dylib */,
+				D897F5A21F4BCA3600C6BDDF /* libc++.1.dylib */,
+				D897F5A01F4BCA1E00C6BDDF /* libxml2.2.dylib */,
+				D897F57F1F4BCA0300C6BDDF /* libz.1.dylib */,
 				19023799A4B8AB56E02D0325 /* libPods-SpatiaLiteMapApp.a */,
 			);
 			name = Frameworks;
@@ -612,6 +642,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				D80C73901F4B0C0000B6DDB3 /* RNSpatialite.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -659,6 +690,14 @@
 				00E356EE1AD99517003FC87E /* SpatiaLiteMapAppTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* SpatiaLiteMapApp-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* SpatiaLiteMapApp-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D80C73911F4B0C0000B6DDB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D80C73B31F4B0C0100B6DDB3 /* libRNSpatialite.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -824,6 +863,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = D80C73911F4B0C0000B6DDB3 /* Products */;
+					ProjectRef = D80C73901F4B0C0000B6DDB3 /* RNSpatialite.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1045,6 +1088,13 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D80C73B31F4B0C0100B6DDB3 /* libRNSpatialite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSpatialite.a;
+			remoteRef = D80C73B21F4B0C0100B6DDB3 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
